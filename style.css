@@ -1,0 +1,299 @@
+body {
+  padding-bottom: 50px;
+  font-size: 13px !important;
+  user-select: none;
+  color: #ffffff !important;
+  background-color: #000 !important;
+}
+
+footer {
+  margin-left: 20px;
+}
+
+.p_email {
+  color: black !important;
+}
+
+.index {
+  display: flex;
+  margin: 10px;
+}
+
+.input {
+  background-color: #000 !important;
+}
+
+.nombre {
+  background-color: black;
+  height: 90px;
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 5px;
+  text-shadow: -2px 0 0 #fdff2a,
+    -4px 0 0 #df4a42,
+    2px 0 0 #91fcfe,
+    4px 0 0 #4405fc;
+  animation: blink 3s steps(8, start) infinite
+}
+
+.marginLeft {
+  margin-left: 50px !important;
+}
+
+.nombre,
+p {
+  padding: 20px !important;
+}
+
+.imgIndex {
+  display: flex;
+  padding: 10px !important;
+  margin: 10px;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.div_tecnoclogias {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: flex-start;
+
+}
+
+.label_tecnologias {
+  cursor: inherit;
+  display: flex;
+  align-items: flex-end;
+  width: 10rem;
+  margin: 0.3rem 0.5rem;
+  justify-content: flex-start;
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden
+  }
+}
+
+.indexContent {
+  width: 80%;
+  margin: 10px
+}
+
+.lateral {
+  width: 30%;
+}
+
+a {
+  color: white !important;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: #209cee !important;
+  text-decoration-style: none !important;
+  text-decoration: none !important;
+}
+
+.a_link {
+  color: black !important;
+}
+
+#contacto {
+  display: none;
+  width: 45%;
+}
+
+p {
+  display: inline;
+}
+
+ul {
+  padding-left: 15px;
+}
+
+.nes-progress {
+  height: 25px;
+}
+
+.contenedor {
+  display: flex
+}
+
+.barraLateral {
+  width: 30%;
+  margin: 20px;
+}
+
+.fotoCv {
+  width: 3.0%;
+}
+
+.ajuste {
+  margin-right: -50px
+}
+
+.contacto {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+.spanPadding {
+  padding: 10px;
+}
+
+.mensaje {
+  display: flex;
+
+}
+
+.form {
+  width: 80%;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 30px;
+
+}
+.linkProyectos:hover{
+  color: #007bff;
+  
+}
+.paddingLeft {
+  padding-left: 70px !important;
+
+}
+
+.ventana {
+  display: flex;
+  flex-direction: column;
+  margin:3rem;
+}
+
+.derecha {
+  display: inline-block !important;
+  position: absolute !important;
+
+  right: 10px !important;
+}
+
+.barraNavegacion {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap !important;
+  align-content: flex-end !important;
+  margin-bottom: 10px;
+}
+
+dialog {
+  height: 78vh;
+    width: 83%;
+}
+
+@media (max-width: 834px) {
+  body {
+    font-size: 10px !important;
+  }
+
+  ul {
+
+    padding-left: 7px !important;
+  }
+
+  #contacto {
+    width: 70%;
+  }
+
+  .imgIndex {
+    width: 300px;
+    border-radius: 100%;
+  }
+
+  .imageIndex {
+    width: 250px;
+    border-radius: 100%
+    
+  }
+
+  .ventana {
+    flex-direction: column;
+  }
+
+  .imgProyecto {
+    /* height: 80%; */
+    width: 4rem !important;
+
+  }
+}
+
+@media (max-width: 428px) {
+  body {
+    font-size: 10px !important;
+  }
+
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .barraLateral {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .index {
+    flex-direction: column;
+  }
+
+  .imgIndex {
+    display: none;
+    border-radius: 100%;
+  }
+
+  .imageIndex {
+    width: 90%;
+    border-radius: 100%
+  }
+
+  .indexContent {
+    width: 95%;
+  }
+
+  input {
+    width: 100%;
+    padding: 4px !important;
+  }
+
+  input::placeholder {
+    font-size: 10px;
+  }
+
+  section {
+    padding: 5px !important;
+  }
+
+  #contacto {
+    width: 95%;
+
+  }
+
+  .mario {
+    width: 100%;
+  }
+
+  .mario,
+  p {
+    font-size: 11px;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
