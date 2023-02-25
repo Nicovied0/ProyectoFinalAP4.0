@@ -215,6 +215,7 @@ dialog {
   .imgIndex {
     width: 300px;
     border-radius: 100%;
+    display: none;
   }
 
   .imageIndex {
